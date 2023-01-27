@@ -1,0 +1,124 @@
+div {
+    display: inline-block;
+    text-align: center;
+    top: 50%;
+    justify-content: center;
+    color: cyan;
+}
+
+div#um {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+
+div#dois {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(71, 71, 188);
+}
+
+
+div#tres {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(61, 61, 156);
+}
+
+div#quatro {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 64, 218);
+}
+
+div#cinco {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(35, 35, 185);
+}
+
+div#seis {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(37, 37, 132);
+}
+
+/*
+div#7 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#8 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#9 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#10 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#11 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#12 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#13 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#14 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#15 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#16 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#17 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#18 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}
+
+div#19 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 163);
+}*/
