@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><img src="LogoMRL.png" alt="some text" width=510 height=187></h1>
+    <section>
+
+        <form id="adcionarHospede" action="">
+
+            <div class="full-box" id="name">
+                <p>
+                    <br><label for="name">Nome Completo</label>
+                    <input type="text" name="name" id="name" required="required" placeholder="Digite seu Nome Completo"
+                        data-required data-only-letters>
+                </p>
+
+            </div>
+
+            <div class="half-box spacing" id="anoN">
+                <p>
+                    <label for="anoN"> Ano de Nascimento: </label>
+                    <input type="text" name="anoN" id="anoN" required="required"
+                        placeholder="Digite o ANO de nascimento">
+                </p>
+            </div>
+
+            <div class="half-box" id="cpf">
+                <p>
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf" id="cpf" required="required" placeholder="Digite seu CPF">
+                </p>
+            </div>
+
+            <div id="sex">
+                <p>
+                    <label for="sex">Sexo</label>
+                    <input type="radio" name="sex" id="sex" value="M"> Masculino</input><input type="radio" name="sex"
+                        id="sex" value="F"> Feminino</input>
+
+                </p>
+            </div>
+
+            <div class="full-box" id="email">
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required="required" placeholder="Digite seu email"
+                        onblur="validacaoEmail(adcionarHospede.email)" maxlength="60" size='65'>
+                </p>
+
+            </div>
+
+            <div id="botãoAdd">
+
+                <input type="submit" value="Adicionar" onclick="adicionar()">
+
+            </div>
+
+        </form>
+
+        <div id="dadosHospede">
+            <p>Quarto: </p><br>
+
+
+            <br>
+        </div>
+
+        <div id="bloco"></div>
+        <p class="error-validation template"></p>
+    </section>
+    <footer>&copy; MRL BANK</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
